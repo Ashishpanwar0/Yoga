@@ -10,21 +10,21 @@ function Mid() {
   
   return (
     <>
-      <section className='bg-[#ddceb7fa] h-170'>
+      <section className='bg-[#ddceb7fa] lg:h-170'>
         {/* Second Start */}
-        <div className='flex gap-0 pt-12'>
-          <div className='mt-35'>
-            <img src={home1baner} alt="" className='w-110  hover:scale-105 hover:animate__pulse  animate__animated animate__backInLeft hidden sm:block' />
+        <div className='flex gap-0 pt-12 lg:flex-row'>
+          <div className='lg:mt-35'>
+            <img src={home1baner} alt="" className='lg:w-110 hover:scale-105 hover:animate__pulse  animate__animated animate__backInLeft hidden sm:block' />
           </div>
 
           <div>
-          <div className='flex gap-10 ml-9'>
+          <div className='flex lg:gap-10 sm:ml-9 gap-10 md:gap-10 ml-11 lg:ml-18'>
           <span className='text-1xl border-1 px-12 py-1 rounded-[30px] text-[#0b2a2b77]'> Mindfulness</span>
           <span className='text-1xl border-1 px-12 py-1 rounded-[30px] text-[#0b2a2b77]'>Meditation</span>
           </div>
             <div>
               {/* text photo start */}
-              <div className='text-[70px] font-bold leading-tight text-[#0b2a2b] relative inline-block w-full tracking-[6px] mt-5'>
+              <div className='lg:text-[70px] text-[50px] font-bold leading-tight text-[#0b2a2b] relative inline-block w-full tracking-[6px] ml-9 lg:ml-[-1px] text-center mt-10 font-serif '>
                 <h1 className='flex gap-1'>
                   Transform <span><img src={home1} alt="" className=' w-20' /></span>
                 </h1>
@@ -36,7 +36,7 @@ function Mid() {
                   <span>
                     <img src={home3} alt="" className='w-20' /></span>Calm Your 
                 </h1>
-                <h1 className='text-center'>
+                <h1 className='lg:text-center mr-25'>
                 Mind
                 </h1>
               </div>
