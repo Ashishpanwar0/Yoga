@@ -12,91 +12,89 @@ import { RiMetaLine } from "react-icons/ri";
 function Lessons() {
   return (
     <>
-      <section className='bg-[#F9F3EA] h-auto'>
+      <section className='bg-[#F9F3EA] lg:h-270 h-490'>
         <div className='pt-15'>
-          <h1 className='flex border-1 w-70 justify-center gap-5 items-center rounded-2xl  py-2 leading-tight tracking-[3px] ml-134'><BsStars />Tools and Props <BsStars /></h1>
-          <h1 className='text-5xl w-120 text-center tracking-[3px] items-center ml-110 text-[#0B2A2B] font-bold mt-5'>Lessons Learned on the Mat</h1>
-          <p className='w-140 text-center ml-100 mt-5 tracking-[3px]'>Ultricies mi eget mauris pharetra et ultrices neque ornare aenean. sem sed erat pos se quam dignissim mauris feugiat.</p>
+          <h1 className='flex border-1 lg:w-70 w-60 gap-2 ml-28 justify-center md:ml-90 lg:gap-5 items-center rounded-2xl  py-2 leading-tight tracking-[3px] lg:ml-130'><BsStars />Tools and Props <BsStars /></h1>
+          <h1 className='lg:text-5xl text-3xl ml-2 w-110 text-center tracking-[3px] items-center lg:ml-110 text-[#0B2A2B] font-bold mt-5 md:ml-60'>Lessons Learned on the Mat</h1>
+          <p className='lg:w-140 w-95 ml-7 text-center lg:ml-95 mt-5 tracking-[3px] text-sm md:ml-65'>Ultricies mi eget mauris pharetra et ultrices neque ornare aenean. sem sed erat pos se quam dignissim mauris feugiat.</p>
         </div>
 
         {/* seconed start */}
-        <section className='flex gap-0 h-190'>
-          <div>
+        <section className='flex flex-col items-center lg:flex lg:flex-row lg:items-start lg:gap-0 lg:h-190'>
+          <div className="flex flex-col items-center space-y-8 mb-8 lg:mb-0 lg:space-y-0 mt-10">
             {/* first div start */}
-            <div className='w-80 text-center ml-32'>
-              <GiStoneStack className='size-28 ml-25 text-[#00000050]' />
-              <h1 className='tracking-[3px] text-2xl text-[#0B2A2B] mt-3'>
+            <div className='w-80 text-center lg:ml-28'>
+              <GiStoneStack className='size-16 md:size-20 mx-auto lg:size-28 lg:ml-25 text-[#00000050]' />
+              <h1 className='tracking-[3px] text-xl md:text-2xl text-[#0B2A2B] mt-2 lg:mt-3'>
                 Healing Stones
               </h1>
-              <p className='text-[#0b2a2bc2] mt-3 '>
+              <p className='text-[#0b2a2bc2] mt-2 lg:mt-3 px-4 md:px-8 lg:px-0'>
                 Cubilia curae tortor amet ridiculus egestas sagittis tempor nam
               </p>
             </div>
             {/* first div end */}
             {/* second div start */}
-            <div className='w-80 text-center mt-12 ml-10'>
-              <BsAlexa className='size-28 ml-25 text-[#00000050]' />
-              <h1 className='tracking-[3px] text-2xl text-[#0B2A2B] mt-3'>
+            <div className='w-80 text-center lg:mt-12 lg:ml-1'>
+              <BsAlexa className='size-16 md:size-20 mx-auto lg:size-28 lg:ml-25 text-[#00000050]' />
+              <h1 className='tracking-[3px] text-xl md:text-2xl text-[#0B2A2B] mt-2 lg:mt-3'>
                 Sound Theraphy
               </h1>
-              <p className='text-[#0b2a2bc2] mt-3 '>
+              <p className='text-[#0b2a2bc2] mt-2 lg:mt-3 px-4 md:px-8 lg:px-0'>
                 Quam turpis habitant dictumst augue urna massa faucibus gravida
               </p>
             </div>
             {/* second div end */}
             {/* third start */}
-            <div className='w-80 text-center mt-12 ml-30'>
-              <TbYoga className='size-28 ml-25 text-[#00000050]' />
-              <h1 className='tracking-[3px] text-2xl text-[#0B2A2B] mt-3'>
+            <div className='w-80 text-center lg:mt-12 lg:ml-30'>
+              <TbYoga className='size-16 md:size-20 mx-auto lg:size-28 lg:ml-25 text-[#00000050]' />
+              <h1 className='tracking-[3px] text-xl md:text-2xl text-[#0B2A2B] mt-2 lg:mt-3'>
                 Improves Postures
               </h1>
-              <p className='text-[#0b2a2bc2] mt-3 '>
+              <p className='text-[#0b2a2bc2] mt-2 lg:mt-3 px-4 md:px-8 lg:px-0'>
                 Fringilla congue dui cursus laoreet enim sem porta sed inceptos euismod
               </p>
             </div>
             {/* third end */}
           </div>
 
-
-          <div>
-            <img src={yogamid} alt="" className='w-150 mt-38' />
+          <div className="flex justify-center mb-8 lg:mb-0">
+            <img src={yogamid} alt="" className='w-3/4 md:w-1/2 lg:w-160 lg:mt-46' />
           </div>
 
-          <div>
-            <div className='w-80 text-center mr-30'>
-              <FaOdnoklassniki className='size-28 ml-25 text-[#00000050]' />
-              <h1 className='tracking-[3px] text-2xl text-[#0B2A2B] mt-3'>
+          <div className="flex flex-col items-center space-y-8 lg:space-y-0 lg:mt-10">
+            <div className='w-80 text-center lg:mr-30'>
+              <FaOdnoklassniki className='size-16 md:size-20 mx-auto lg:size-28 lg:ml-25 text-[#00000050]' />
+              <h1 className='tracking-[3px] text-xl md:text-2xl text-[#0B2A2B] mt-2 lg:mt-3'>
                 Traditional Yoga
               </h1>
-              <p className='text-[#0b2a2bc2] mt-3 '>
+              <p className='text-[#0b2a2bc2] mt-2 lg:mt-3 px-4 md:px-8 lg:px-0'>
                 Cubilia curae tortor amet ridiculus egestas sagittis tempor nam
               </p>
             </div>
             {/* first div end */}
             {/* second div start */}
-            <div className='w-80 text-center mt-12 ml-16'>
-              <RiMentalHealthFill className='size-28 ml-25 text-[#00000050]' />
-              <h1 className='tracking-[3px] text-2xl text-[#0B2A2B] mt-3'>
+            <div className='w-80 text-center lg:mt-12 lg:ml-1'>
+              <RiMentalHealthFill className='size-16 md:size-20 mx-auto lg:size-28 lg:ml-25 text-[#00000050]' />
+              <h1 className='tracking-[3px] text-xl md:text-2xl text-[#0B2A2B] mt-2 lg:mt-3'>
                 Mental Benefits
               </h1>
-              <p className='text-[#0b2a2bc2] mt-3 '>
+              <p className='text-[#0b2a2bc2] mt-2 lg:mt-3 px-4 md:px-8 lg:px-0'>
                 Quam turpis habitant dictumst augue urna massa faucibus gravida
               </p>
             </div>
             {/* second div end */}
             {/* third start */}
-            <div className='w-80 text-center mt-12 mr-30'>
-              <RiMetaLine className='size-28 ml-25 text-[#00000050]' />
-              <h1 className='tracking-[3px] text-2xl text-[#0B2A2B] mt-3'>
+            <div className='w-80 text-center lg:mt-12 lg:mr-30'>
+              <RiMetaLine className='size-16 md:size-20 mx-auto lg:size-28 lg:ml-25 text-[#00000050]' />
+              <h1 className='tracking-[3px] text-xl md:text-2xl text-[#0B2A2B] mt-2 lg:mt-3'>
                 Yoga Requirements
               </h1>
-              <p className='text-[#0b2a2bc2] mt-3 '>
+              <p className='text-[#0b2a2bc2] mt-2 lg:mt-3 px-4 md:px-8 lg:px-0'>
                 Fringilla congue dui cursus laoreet enim sem porta sed inceptos euismod
               </p>
             </div>
             {/* third end */}
           </div>
-
         </section>
         {/* secconed end */}
       </section>
