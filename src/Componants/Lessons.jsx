@@ -13,11 +13,17 @@ function Lessons() {
   return (
     <>
       <section className='bg-[#F9F3EA] lg:h-270 h-490'>
-        <div className='pt-15'>
-          <h1 className='flex border-1 lg:w-70 w-60 gap-2 ml-28 justify-center md:ml-90 lg:gap-5 items-center rounded-2xl  py-2 leading-tight tracking-[3px] lg:ml-130'><BsStars />Tools and Props <BsStars /></h1>
-          <h1 className='lg:text-5xl text-3xl ml-2 w-110 text-center tracking-[3px] items-center lg:ml-110 text-[#0B2A2B] font-bold mt-5 md:ml-60'>Lessons Learned on the Mat</h1>
-          <p className='lg:w-140 w-95 ml-7 text-center lg:ml-95 mt-5 tracking-[3px] text-sm md:ml-65'>Ultricies mi eget mauris pharetra et ultrices neque ornare aenean. sem sed erat pos se quam dignissim mauris feugiat.</p>
-        </div>
+         <div className='pt-10 sm:pt-16'>
+              <h1 className='flex border-1 w-60 justify-center gap-5 items-center rounded-2xl py-2 lg:w-80 tracking-[2px] mx-auto text-base sm:text-lg'>
+                <BsStars />Tools and Props <BsStars />
+              </h1>
+              <h1 className='text-3xl sm:text-4xl lg:text-5xl w-full text-center tracking-[3px] text-[#0B2A2B] font-bold mt-5'>
+               Lessons Learned on the Mat
+              </h1>
+              <p className='text-sm sm:text-base lg:text-lg max-w-[600px] mx-auto mt-5 tracking-[1.5px] text-center'>
+               Ultricies mi eget mauris pharetra et ultrices neque ornare aenean. sem sed erat pos se quam dignissim mauris feugiat.
+              </p>
+            </div>
 
         {/* seconed start */}
         <section className='flex flex-col items-center lg:flex lg:flex-row lg:items-start lg:gap-0 lg:h-190'>

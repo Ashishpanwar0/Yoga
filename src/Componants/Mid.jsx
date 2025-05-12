@@ -10,7 +10,7 @@ function Mid() {
   
   return (
     <>
-      <section className='bg-[#ddceb7fa] lg:h-170'>
+      <section className='bg-[#ddceb7fa] h-160 lg:h-170'>
         {/* Second Start */}
         <div className='flex gap-0 pt-12 lg:flex-row'>
           <div className='lg:mt-35'>
@@ -24,7 +24,7 @@ function Mid() {
           </div>
             <div>
               {/* text photo start */}
-              <div className='lg:text-[70px] text-[50px] font-bold leading-tight text-[#0b2a2b] relative inline-block w-full tracking-[6px] ml-9 lg:ml-[-1px] text-center mt-10 font-serif '>
+              <div className='lg:text-[70px] text-[44px] font-bold leading-tight text-[#0b2a2b] relative inline-block w-full tracking-[6px] ml-4 lg:ml-[-1px] text-center mt-10 font-serif '>
                 <h1 className='flex gap-1'>
                   Transform <span><img src={home1} alt="" className=' w-20' /></span>
                 </h1>
@@ -41,10 +41,10 @@ function Mid() {
                 </h1>
               </div>
               {/* text photo end */}
-              <p className='w-125 text-center text-1xl mt-5'>
+              <p className='lg:w-125 text-center text-1xl mt-5'>
                 Proin ornare justo sodales senectus vulputate aptent semper sollicitudin accumsan fringilla et imperdiet pellentesque morbi
               </p>
-              <button className='border-1 px-13 py-4 rounded-[30px] mt-10 bg-[#0B2A2B] text-white ml-38 hover:bg-[#536765] group-hover:scale-100'>
+              <button className='border-1 px-13 py-4 rounded-[30px] mt-10 bg-[#0B2A2B] text-white ml-25 hover:bg-[#536765] group-hover:scale-100'>
                 Explore More
               </button>
             </div>
