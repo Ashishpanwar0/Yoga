@@ -10,10 +10,10 @@ import card4 from '../assets/card4.jpg'
 
 function Testimonial() {
   return (
-    <section className="relative bg-[#F4ECDF] py-20 px-4 h-120  overflow-hidden">
+    <section className="relative bg-[#F4ECDF] py-20 px-4 h-120  overflow-hidden lg:w-full">
       <div className='pt-5 relative'>
-        <h1 className='flex border-1 w-70 justify-center gap-2 items-center rounded-2xl  py-2 leading-tight tracking-[2px] ml-130'><BsStars />Community talks <BsStars /></h1>
-        <h1 className='text-5xl w-150 text-center tracking-[3px] items-center ml-90 text-[#0B2A2B] font-bold mt-5'>What our clients say about us</h1>
+        <h1 className='flex border-1 lg:w-70 justify-center gap-2 items-center rounded-2xl  py-2 leading-tight tracking-[2px] lg:ml-130'><BsStars />Community talks <BsStars /></h1>
+        <h1 className='lg:text-5xl lg:w-150 text-center tracking-[3px] items-center ml-90 text-[#0B2A2B] font-bold mt-5'>What our clients say about us</h1>
         <p className='w-180 text-center ml-80 mt-5 tracking-[3px]'>Sociosqu gravida vehicula dis erat ante ornare interdum feugiat donec accumsan nullamdiam magna, auctor ut risus eget, scelerisque aliquam</p>
       </div>
 

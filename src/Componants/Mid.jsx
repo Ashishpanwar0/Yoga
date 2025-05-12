@@ -50,7 +50,7 @@ function Mid() {
             </div>
           </div>
 
-          <div className='border-10 border-[#8D9182] rounded-t-[900px]  w-48 h-69 ml-25 bg-[#0B2A2B]'>
+          <div className='border-10 hidden lg:block border-[#8D9182] rounded-t-[900px]  w-48 h-69 ml-25 bg-[#0B2A2B]'>
           <GiHeartBeats className='size-[40px] ml-[130px] mt-[-60px] rotate-20 text-[#0b2a2b] animate__animated animate__heartBeat animate__infinite'/>
             <img src={home4} alt="" className='h-73 mt-[-17px] transform scale-x-[-1]' />
           </div>
