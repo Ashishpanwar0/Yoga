@@ -6,13 +6,13 @@ import { IoMailOutline } from "react-icons/io5";
 function YogaExpart() {
   return (
     <>
-      <section className='bg-[#FBF5EC] h-134 pt-15'>
-        <div className='flex border-white-1 grid-cols-3 bg-[#0B2A2B] py-12 w-[90%] gap-8 rounded-2xl ml-18 h-110'>
-          <div className='w-[35%] ml-10 mt-8'>
-            <h1 className='text-6xl text-white font-bold w-100 tracking-[1px]'>
+      <section className='bg-[#FBF5EC] lg:h-145 h-250 pt-15'>
+        <div className='lg:flex border-white-1 lg:grid-cols-3 bg-[#0B2A2B] py-12 lg:w-[90%] lg:gap-8 rounded-2xl lg:ml-16 lg:h-98 w-116 ml-3 h-230'>
+          <div className='w-[35%] ml-10 mt-3'>
+            <h1 className='text-6xl text-white font-bold lg:w-100 tracking-[1px] w-100'>
               Speak With A Yoga Expert
             </h1>
-            <p className='text-white mt-5'>
+            <p className='text-white mt-5 w-100'>
               Natoque felis efficitur non adipiscing et nisl vehicula ex praesent vitae taciti vitae est sapien mattis litora varius
             </p>
             <button className='border-white-1 px-8 py-2 rounded-4xl bg-white mt-5'>
@@ -20,7 +20,7 @@ function YogaExpart() {
             </button>
           </div>
 
-          <div className='w-[30%] border-white-1 bg-white rounded-2xl px-5 h-70 mt-10'>
+          <div className='lg:w-[30%] border-white-1 bg-white rounded-2xl px-5 lg:h-70  w-100 ml-8 mt-4'>
             <h1 className='text-5xl font-bold text-[#0B2A2B] mb-5 mt-8 ml-1'>
               Talk to us
             </h1>
@@ -38,10 +38,10 @@ function YogaExpart() {
             </p>
           </div>
 
-          <div className="w-[30%]">
-            <div className="relative pb-[110%] h-0 mt-10">
+          <div className="lg:w-[30%]">
+            <div className="relative pb-[110%] h-0 mt-4">
               <iframe
-                className=" top-0 border-0 h-70 rounded-2xl" loading="lazy" allowFullScreen src="https://maps.google.com/maps?q=rishikesh&output=embed"
+                className=" top-0 w-100 lg:ml-1 ml-8 lg:w-76 h-70 border-0 lg:h-70 rounded-2xl" loading="lazy" allowFullScreen src="https://maps.google.com/maps?q=rishikesh&output=embed"
                 title="Rishikesh Map"></iframe>
             </div>
           </div>

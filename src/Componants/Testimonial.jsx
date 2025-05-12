@@ -18,7 +18,7 @@ function Testimonial() {
       </div>
 
       {/* Hover-enabled Image + Testimonial */}
-      <div className="absolute top-20 ml-5 sm:left-10 group">
+      <div className="absolute top-20 ml-5 sm:left-10 group lg:w-full">
         <img
           src={card1}
           className="w-20 h-20 sm:w-24 sm:h-24 rounded-full object-cover border-4 border-transparent group-hover:border-green-600 transition"
