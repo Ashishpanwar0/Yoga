@@ -18,7 +18,7 @@ function Mid() {
           </div>
 
           <div>
-          <div className='flex lg:gap-10 sm:ml-9 gap-10 md:gap-10 ml-11 lg:ml-18'>
+          <div className='flex lg:gap-10 sm:ml-9 gap-5 md:gap-10 ml-3 lg:ml-18'>
           <span className='text-1xl border-1 px-12 py-1 rounded-[30px] text-[#0b2a2b77]'> Mindfulness</span>
           <span className='text-1xl border-1 px-12 py-1 rounded-[30px] text-[#0b2a2b77]'>Meditation</span>
           </div>
