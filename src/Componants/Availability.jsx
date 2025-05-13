@@ -65,9 +65,6 @@ function Availability() {
                     </div>
                     {/* end */}
                 </div>
-
-
-
             </section>
         </>
     )

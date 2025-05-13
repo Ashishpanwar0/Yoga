@@ -7,20 +7,20 @@ function YogaExpart() {
   return (
     <>
       <section className='bg-[#FBF5EC] lg:h-145 h-250 pt-15'>
-        <div className='lg:flex border-white-1 lg:grid-cols-3 bg-[#0B2A2B] py-12 lg:w-[90%] lg:gap-8 rounded-2xl lg:ml-16 lg:h-98 w-116 ml-3 h-230'>
+        <div className='lg:flex border-white-1 lg:grid-cols-3 bg-[#0B2A2B] py-12 lg:w-[90%] lg:gap-8 rounded-2xl lg:ml-16 lg:h-98 w-105 ml-3 h-230'>
           <div className='w-[35%] ml-10 mt-3'>
-            <h1 className='text-6xl text-white font-bold lg:w-100 tracking-[1px] w-100'>
+            <h1 className='lg:text-6xl text-5xl text-white font-bold lg:w-100 tracking-[1px] w-100'>
               Speak With A Yoga Expert
             </h1>
-            <p className='text-white mt-5 w-100'>
+            <p className='text-white mt-5 w-90'>
               Natoque felis efficitur non adipiscing et nisl vehicula ex praesent vitae taciti vitae est sapien mattis litora varius
             </p>
-            <button className='border-white-1 px-8 py-2 rounded-4xl bg-white mt-5'>
+            <button className='border-white-1 lg:px-8 px-8 w-40 py-2 lg:rounded-4xl rounded-xl bg-white mt-5'>
               Book Classes
             </button>
           </div>
 
-          <div className='lg:w-[30%] border-white-1 bg-white rounded-2xl px-5 lg:h-70  w-100 ml-8 mt-4'>
+          <div className='lg:w-[30%] border-white-1 bg-white rounded-2xl px-5 lg:h-70  w-93 ml-5 mt-4'>
             <h1 className='text-5xl font-bold text-[#0B2A2B] mb-5 mt-8 ml-1'>
               Talk to us
             </h1>
@@ -41,7 +41,7 @@ function YogaExpart() {
           <div className="lg:w-[30%]">
             <div className="relative pb-[110%] h-0 mt-4">
               <iframe
-                className=" top-0 w-100 lg:ml-1 ml-8 lg:w-76 h-70 border-0 lg:h-70 rounded-2xl" loading="lazy" allowFullScreen src="https://maps.google.com/maps?q=rishikesh&output=embed"
+                className=" top-0 w-92 lg:ml-1 ml-5  lg:w-76 h-70 border-0 lg:h-70 rounded-2xl" loading="lazy" allowFullScreen src="https://maps.google.com/maps?q=rishikesh&output=embed"
                 title="Rishikesh Map"></iframe>
             </div>
           </div>
