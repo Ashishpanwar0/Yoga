@@ -17,7 +17,7 @@ function Testimonial2() {
 
                 {/* contant */}
                 <div>
-                     <div className='pt-10 sm:pt-16'>
+                     <div className='pt-10'>
                           <h1 className='flex border-1 w-70 justify-center gap-2 items-center rounded-2xl py-2 lg:w-80 tracking-[2px] mx-auto text-base sm:text-lg'>
                             <BsStars />Engage, Learn, Inspire <BsStars />
                           </h1>
@@ -30,8 +30,8 @@ function Testimonial2() {
                         </div>
                 </div>
                 {/* contant */}
-                <div className='lg:flex gap-8 mt-10'>
-                    <div className='relative group h-135 lg:w-[30%] lg:ml-8 w-95 ml-4 rounded-xl overflow-hidden bg-cover bg-center hover:border-1 hover:bg-white'
+                <div className='lg:flex gap-0 mt-10'>
+                    <div className='relative group h-135 lg:w-[30%] lg:ml-8 w-[92%] ml-4 rounded-xl overflow-hidden bg-cover bg-center hover:border-1 hover:bg-white'
                         style={{ backgroundImage: `url(${testimonial1})` }}
                         onMouseEnter={() => setIsHovered1(true)}
                         onMouseLeave={() => setIsHovered1(false)}>
@@ -40,7 +40,7 @@ function Testimonial2() {
                             Novemer 11 2024
                         </h1>
 
-                        <div className={`border-white-3 z-50 w-90 h-43 tracking-[3px] bg-[white] rounded-xl ml-2 mt-70 transition-opacity duration-300 ${isHovered1 ? 'opacity-0' : 'opacity-100'}`}>
+                        <div className={`border-white-3 z-50 w-[90%] h-43 tracking-[3px] bg-[white] rounded-xl ml-[15px] mt-70 transition-opacity duration-300 ${isHovered1 ? 'opacity-0' : 'opacity-100'}`}>
                             <h1 className='text-2xl w-80 font-bold text-[#1B2E35] text-center ml-4 mt-6 mb- pt-5 mb-5'>
                                 Yoga For Better Sleep And Health
                             </h1>
@@ -56,7 +56,7 @@ function Testimonial2() {
                     </div>
 
                     {/* second */}
-                    <div className='relative group h-135 lg:w-[30%] lg:ml-8 w-94 ml-4 mt-5 lg:mt-0 rounded-xl overflow-hidden bg-cover bg-center hover:border-1 hover:bg-white'
+                    <div className='relative group h-135 lg:w-[30%] lg:ml-8 w-[92%] ml-4 mt-5 lg:mt-0 rounded-xl overflow-hidden bg-cover bg-center hover:border-1 hover:bg-white'
                         style={{ backgroundImage: `url(${testimonial2})` }}
                         onMouseEnter={() => setIsHovered2(true)}
                         onMouseLeave={() => setIsHovered2(false)}>
@@ -65,7 +65,7 @@ function Testimonial2() {
                             Novemer 11 2024
                         </h1>
 
-                        <div className={`border-white-3 z-50 w-90 h-43 tracking-[3px] bg-[white] rounded-xl ml-2 mt-70 transition-opacity duration-300 ${isHovered2 ? 'opacity-0' : 'opacity-100'}`}>
+                        <div className={`border-white-3 z-50 w-[90%] h-43 tracking-[3px] bg-[white] rounded-xl ml-[15px] mt-70 transition-opacity duration-300 ${isHovered2 ? 'opacity-0' : 'opacity-100'}`}>
                             <h1 className='text-2xl w-80 font-bold text-[#1B2E35] text-center ml-4 mt-6 pt-5 mb-5'>
                                 Yoga For Better Sleep And Health
                             </h1>
@@ -82,7 +82,7 @@ function Testimonial2() {
                     {/* second */}
 
                     {/* third */}
-                    <div className='relative group h-135 lg:w-[30%] lg:ml-8 w-94 ml-4 mt-5 lg:mt-0 rounded-xl overflow-hidden bg-cover bg-center hover:border-1 hover:bg-white'
+                    <div className='relative group h-135 lg:w-[30%] lg:ml-8 w-[92%] ml-4 mt-5 lg:mt-0 rounded-xl overflow-hidden bg-cover bg-center hover:border-1 hover:bg-white'
                         style={{ backgroundImage: `url(${testimonial3})` }}
                         onMouseEnter={() => setIsHovered3(true)}
                         onMouseLeave={() => setIsHovered3(false)}>
@@ -91,7 +91,7 @@ function Testimonial2() {
                             Novemer 11 2024
                         </h1>
 
-                        <div className={`border-white-3 z-50 w-90 h-43 tracking-[3px] bg-[white] rounded-xl ml-2 mt-70 transition-opacity duration-300 ${isHovered3 ? 'opacity-0' : 'opacity-100'}`}>
+                        <div className={`border-white-3 z-50 w-[92%] h-43 tracking-[3px] bg-[white] rounded-xl ml-[15px] mt-70 transition-opacity duration-300 ${isHovered3 ? 'opacity-0' : 'opacity-100'}`}>
                             <h1 className='text-2xl w-80 font-bold text-[#1B2E35] text-center ml-4 mt-6 pt-5 mb-5'>
                                 Yoga For Better Sleep And Health
                             </h1>
@@ -113,13 +113,13 @@ function Testimonial2() {
             <div className="absolute inset-0 lg:bg-white bg-[#ffffff57] opacity-60 z-0"></div>
                 <div className='mt-12 lg:ml-10 ml-5 z-10'>
                 <h1 className='flex items-center gap-2 border-1 lg:w-60 w-52 rounded-xl py-1 mb-5 text-[#00000093] font-bold text-sm'><BsStars className='ml-2'/>Engage, Learn, Inspire<BsStars /></h1>
-                <h1 className='lg:text-4xl text-4xl w-98 lg:w-150 tracking-[3px] text-[#000000b2] font-bold'>
+                <h1 className='lg:text-4xl text-4xl w-[100%] lg:w-150 tracking-[3px] text-[#000000b2] font-bold'>
                 Signup And Elevate Your Insights, Tips & Community.
                 </h1>
                 </div>
 
                 <div className='z-1'>
-                   <input type="text" placeholder='Enter Your Mail' className='border-1 border-[#000000a9] px-2 py-3 lg:w-110 rounded-2xl lg:ml-20 lg:mt-18 ml-5 mt-12 w-95' />
+                   <input type="text" placeholder='Enter Your Mail' className='border-1 border-[#000000a9] px-2 py-3 lg:w-110 rounded-2xl lg:ml-20 lg:mt-18 ml-5 mt-12 w-[90%]' />
                     <button className='border-white-1 bg-[#1C2F36] text-white lg:px-14 px-7 rounded-2xl lg:py-3 py-[12.3px] lg:ml-[-161px] w-40 absolute lg:mt-[73.8px] mt-[48.9px] ml-[-161px] hover:bg-[#536765]'>
                         Submit
                     </button>

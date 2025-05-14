@@ -36,10 +36,10 @@ function Cards1() {
             </h1>
             <div className='flex gap-x-1 md:gap-x-4 mt-3 md:mt-4 lg:mt-5 pb-2'>
                 <img src={card1} alt="" className='w-8 h-8 md:w-10 md:h-10 object-cover rounded-full'/>
-                <p className='text-lg md:text-xl mt-1 md:mt-2'>
+                <p className='lg:text-lg text-sm mt-1 md:mt-2'>
                     Zafira
                 </p>
-                <p className='flex mt-2 md:mt-3 gap-x-1 md:gap-x-2 ml-4 md:ml-8 text-sm md:text-base lg:text-1xl'>
+                <p className='flex mt-2 md:mt-3 gap-x-1 md:gap-x-2 ml-4 md:ml-8 text-[11px] md:text-base lg:text-1xl'>
                     <MdOutlineWatchLater className='mt-1'/>1.5 hours
                 </p>
             </div>
@@ -55,10 +55,10 @@ function Cards1() {
             </h1>
             <div className='flex gap-x-1 md:gap-x-4 mt-3 md:mt-4 lg:mt-5 pb-2'>
                 <img src={card1} alt="" className='w-8 h-8 md:w-10 md:h-10 object-cover rounded-full'/>
-                <p className='text-lg md:text-xl mt-1 md:mt-2'>
+                <p className='lg:text-lg text-sm mt-1 md:mt-2'>
                     Zafira
                 </p>
-                <p className='flex mt-2 md:mt-3 gap-x-1 md:gap-x-2 ml-4 md:ml-8 text-sm md:text-base lg:text-1xl'>
+                <p className='flex mt-2 md:mt-3 gap-x-1 md:gap-x-2 ml-4 md:ml-8 md:text-base lg:text-1xl text-[11px]'>
                     <MdOutlineWatchLater className='mt-1'/>1.5 hours
                 </p>
             </div>
@@ -74,10 +74,10 @@ function Cards1() {
             </h1>
             <div className='flex gap-x-1 md:gap-x-4 mt-3 md:mt-4 lg:mt-5 pb-2'>
                 <img src={card1} alt="" className='w-8 h-8 md:w-10 md:h-10 object-cover rounded-full'/>
-                <p className='text-lg md:text-xl mt-1 md:mt-2'>
+                <p className='lg:text-lg text-sm mt-1 md:mt-2'>
                     Zafira
                 </p>
-                <p className='flex mt-2 md:mt-3 gap-x-0 md:gap-x-2 ml-4 md:ml-8 text-sm md:text-base lg:text-1xl'>
+                <p className='flex mt-2 md:mt-3 gap-x-0 md:gap-x-2 ml-4 md:ml-8 text-[11px] md:text-base lg:text-1xl'>
                     <MdOutlineWatchLater className='mt-1'/>1.5 hours
                 </p>
             </div>
@@ -93,10 +93,10 @@ function Cards1() {
             </h1>
             <div className='flex gap-x-1 md:gap-x-4 mt-3 md:mt-4 lg:mt-5 pb-2'>
                 <img src={card1} alt="" className='w-8 h-8 md:w-10 md:h-10 object-cover rounded-full'/>
-                <p className='text-lg md:text-xl mt-1 md:mt-2'>
+                <p className='lg:text-lg text-sm mt-1 md:mt-2'>
                     Zafira
                 </p>
-                <p className='flex mt-2 md:mt-3 gap-x-0 md:gap-x-2 ml-4 md:ml-8 text-sm md:text-base lg:text-1xl'>
+                <p className='flex mt-2 md:mt-3 gap-x-0 md:gap-x-2 ml-4 md:ml-8 text-[11px] md:text-base lg:text-1xl'>
                     <MdOutlineWatchLater className='mt-1'/>1.5 hours
                 </p>
             </div>

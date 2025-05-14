@@ -10,7 +10,7 @@ import card4 from '../assets/card4.jpg'
 
 function Testimonial() {
   return (
-    <section className="relative bg-[#F4ECDF] py-20 px-4 lg:h-120 w-full  overflow-hidden lg:w-full h-125">
+    <section className="relative bg-[#F4ECDF] py-20 px-4 lg:h-120 w-[100%]  overflow-hidden lg:w-full h-125">
       <div className='relative'>
         <h1 className='flex border-1 w-55 ml-25 lg:w-70 justify-center gap-2 items-center rounded-2xl  py-2 leading-tight tracking-[2px] lg:ml-130'><BsStars />Community talks <BsStars /></h1>
         <h1 className='lg:text-5xl text-2xl lg:w-150 text-center tracking-[3px] items-center lg:ml-90 text-[#0B2A2B] font-bold mt-5'>What our clients say about us</h1>
@@ -18,7 +18,7 @@ function Testimonial() {
       </div>
 
       {/* Hover-enabled Image + Testimonial */}
-      <div className="absolute lg:top-20 ml-5  group lg:w-full top-[-0px] left-1">
+      <div className="absolute lg:top-20 ml-5  group lg:w-full top-[-0px] left-1 w-[100%]">
         <img
           src={card1}
           className="lg:w-25 lg:h-25 w-20 h-20 rounded-full object-cover border-4 border-transparent group-hover:border-green-600 transition"
@@ -32,7 +32,7 @@ function Testimonial() {
       </div>
 
 
-      <div className="absolute lg:ml-60 lg:top-35group top-1 left-45">
+      <div className="absolute lg:ml-60 lg:top-35group top-1 left-45 w-[100%]">
         <img
           src={card2}
           className="w-20 h-20 lg:w-25 lg:h-25 rounded-full object-cover border-4 border-transparent group-hover:border-green-600 transition"
@@ -46,7 +46,7 @@ function Testimonial() {
       </div>
 
 
-      <div className="absolute lg:ml-220 lg:top-5 group top-1 left-80">
+      <div className="absolute lg:ml-220 lg:top-5 group top-1 left-80 hidden lg:block">
         <img
           src={card3}
           className="w-20 h-20 lg:w-25 lg:h-25 rounded-full object-cover border-4 border-transparent group-hover:border-green-600 transition"
@@ -60,7 +60,7 @@ function Testimonial() {
       </div>
 
 
-      <div className="absolute lg:ml-240 lg:top-30 top-42 group">
+      <div className="absolute lg:ml-240 lg:top-30 top-42 group hidden lg:block">
         <img
           src={card4}
           className="lg:w-25 lg:h-25 w-14 h-14 rounded-full object-cover border-4 border-transparent group-hover:border-green-600 transition"
@@ -74,7 +74,7 @@ function Testimonial() {
       </div>
 
       {/* second section  */}
-      <div className="absolute lg:left-55 lg:top-60 top-42 left-80 group">
+      <div className="absolute lg:left-55 lg:top-60 top-42 left-80 group hidden lg:block">
         <img
           src={card4}
           className="lg:w-25 lg:h-25 h-14 w-14  rounded-full object-cover border-4 border-transparent group-hover:border-green-600 transition"
@@ -88,7 +88,7 @@ function Testimonial() {
       </div>
 
 
-      <div className="absolute lg:ml-280 lg:top-60  group">
+      <div className="absolute lg:ml-280 lg:top-60 group">
         <img
           src={card2}
           className="lg:w-25 lg:h-25 w-20 h-20 rounded-full object-cover border-4 border-transparent group-hover:border-green-600 transition"
@@ -118,7 +118,7 @@ function Testimonial() {
 
 
 
-      <div className="absolute left-80 lg:ml-80 lg:top-90 group">
+      <div className="absolute left-80 lg:ml-80 hidden lg:block lg:top-90 group">
         <img
           src={card3}
           className="w-20 h-20 lg:w-25 lg:h-25 rounded-full object-cover border-4 border-transparent group-hover:border-green-600 transition"

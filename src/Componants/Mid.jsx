@@ -10,7 +10,7 @@ function Mid() {
   
   return (
     <>
-      <section className='bg-[#ddceb7fa] h-160 lg:h-170'>
+      <section className='bg-[#ddceb7fa] h-[550px] lg:h-170'>
         {/* Second Start */}
         <div className='flex gap-0 pt-12 lg:flex-row'>
           <div className='lg:mt-35'>
@@ -18,25 +18,25 @@ function Mid() {
           </div>
 
           <div>
-          <div className='flex lg:gap-10 sm:ml-9 gap-5 md:gap-10 ml-3 lg:ml-18'>
+          <div className='flex lg:gap-10 max-auto gap-2 md:gap-10 ml-3 lg:ml-18'>
           <span className='text-1xl border-1 px-12 py-1 rounded-[30px] text-[#0b2a2b77]'> Mindfulness</span>
           <span className='text-1xl border-1 px-12 py-1 rounded-[30px] text-[#0b2a2b77]'>Meditation</span>
           </div>
             <div>
               {/* text photo start */}
-              <div className='lg:text-[70px] text-[44px] font-bold leading-tight text-[#0b2a2b] relative inline-block w-full tracking-[6px] ml-4 lg:ml-[-1px] text-center mt-10 font-serif '>
-                <h1 className='flex gap-1'>
-                  Transform <span><img src={home1} alt="" className=' w-20' /></span>
+              <div className='lg:text-[70px] text-[44px] font-bold leading-tight text-[#0b2a2b] relative inline-block w-[100%] tracking-[6px] ml-4 lg:ml-[-1px] text-center max-auto font-serif '>
+                <h1 className='flex gap-1 text-center'>
+                  Transform <span><img src={home1} alt="" className='w-[60px] lg:w-20' /></span>
                 </h1>
                 <h1 className='flex gap-2'>
-                  Your <span><img src={home2} alt="" className='w-20' /></span>
+                  Your <span><img src={home2} alt="" className=' w-[60px] lg:w-20' /></span>
                   Body,
                 </h1>
                 <h1 className='flex gap-2'>
                   <span>
-                    <img src={home3} alt="" className='w-20' /></span>Calm Your 
+                    <img src={home3} alt="" className='lg:w-20 w-[60px]' /></span>Calm Your 
                 </h1>
-                <h1 className='lg:text-center mr-25'>
+                <h1 className='lg:text-center mr-[25]'>
                 Mind
                 </h1>
               </div>

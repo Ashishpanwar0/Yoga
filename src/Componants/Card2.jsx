@@ -30,18 +30,18 @@ function Card2() {
             </div>
             {/* card pay */}
 
-            <div className='flex lg:grid-cols-2 w-[364.2px] ml-6 border-1 lg:w-[364.1px] rounded-4xl lg:ml-124 mt-10'>
-            <h1 className='border-white-1 px-6 py-2 text-2xl rounded-3xl hover:bg-[#0B2A2B] hover:text-white'>
+            <div className='flex text-center lg:grid-cols-2 w-[76.3%]  ml-10 max-auto border-1 lg:w-[364.1px] rounded-4xl lg:ml-124 mt-10'>
+            <h1 className='border-white-1 px-6 py-2 lg:text-2xl rounded-3xl hover:bg-[#0B2A2B] hover:text-white'>
                 Pay Monthly
             </h1>
-            <h1 className='border-white-1 px-6 py-2 text-2xl rounded-3xl hover:bg-[#0B2A2B] hover:text-white'> 
+            <h1 className='border-white-1 px-6 py-2 lg:text-2xl rounded-3xl hover:bg-[#0B2A2B] hover:text-white'> 
                 Pay Annually
             </h1>
             </div>
             {/* card pay end */}
             {/* card start */}
-                <div className='grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:flex gap-8 lg:ml-12 mt-20'>
-                    <div className='lg:w-[30%] w-94 ml-4 hover:border-1 bg-[#F0E9DD] group relative overflow-hidden rounded-xl h-160 shadow-md transition-all duration-500'>
+                <div className='lg:grid-cols-3 lg:flex gap-8 lg:ml-12 mt-20'>
+                    <div className='lg:w-[30%] w-[92%] ml-4 hover:border-1 bg-[#F0E9DD] group relative overflow-hidden rounded-xl h-160 shadow-md transition-all duration-500'>
                           <div className="absolute inset-0 opacity-0 group-hover:opacity-15 transition-opacity duration-500 bg-cover bg-center" style={{ backgroundImage: `url(${celender1})` }}></div>
                         <div className='ml-5 w-90 mt-8 text-[#0b2a2b]'>
                         <h1 className='text-5xl font-bold mb-5 tracking-[3px] text-[#0B2A2B]'>
@@ -70,7 +70,7 @@ function Card2() {
 
 
                     {/* second */}
-                    <div className=' w-94 ml-4 lg:ml-0 mt-5 lg:w-[30%] lg:mt-0 hover:border-1 bg-[#F0E9DD] group relative overflow-hidden rounded-xl h-160 shadow-md transition-all duration-500'>
+                    <div className=' w-[92%] ml-4 lg:ml-0 mt-5 lg:w-[30%] lg:mt-0 hover:border-1 bg-[#F0E9DD] group relative overflow-hidden rounded-xl h-160 shadow-md transition-all duration-500'>
                           <div className="absolute inset-0 opacity-0 group-hover:opacity-15 transition-opacity duration-500 bg-cover bg-center" style={{ backgroundImage: `url(${home4})` }}></div>
                         <div className='ml-5 w-90 mt-8 text-[#0b2a2b]'>
                         <h1 className='text-5xl font-bold mb-5 tracking-[3px] text-[#0B2A2B]'>
@@ -99,7 +99,7 @@ function Card2() {
                     {/* second */}
                     
                     {/* thrd */}
-                    <div className=' w-94 ml-4 mt-5 lg:mt-0 lg:ml-0 lg:w-[30%] hover:border-1 bg-[#F0E9DD] group relative overflow-hidden rounded-xl h-160 shadow-md transition-all duration-500'>
+                    <div className=' w-[92%] ml-4 mt-5 lg:mt-0 lg:ml-0 lg:w-[30%] hover:border-1 bg-[#F0E9DD] group relative overflow-hidden rounded-xl h-160 shadow-md transition-all duration-500'>
                           <div className="absolute inset-0 opacity-0 group-hover:opacity-15 transition-opacity duration-500 bg-cover bg-center" style={{ backgroundImage: `url(${banner})` }}></div>
                         <div className='ml-5 w-90 mt-8 text-[#0b2a2b]'>
                         <h1 className='text-5xl font-bold mb-5 tracking-[3px] text-[#0B2A2B]'>

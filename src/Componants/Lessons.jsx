@@ -12,7 +12,7 @@ import { RiMetaLine } from "react-icons/ri";
 function Lessons() {
   return (
     <>
-      <section className='bg-[#F9F3EA] lg:h-270 h-490'>
+      <section className='bg-[#F9F3EA] lg:h-270 h-[1860px]'>
          <div className='pt-10 sm:pt-16'>
               <h1 className='flex border-1 w-60 justify-center gap-5 items-center rounded-2xl py-2 lg:w-80 tracking-[2px] mx-auto text-base sm:text-lg'>
                 <BsStars />Tools and Props <BsStars />
