@@ -30,7 +30,7 @@ function Card2() {
             </div>
             {/* card pay */}
 
-            <div className='flex lg:grid-cols-2 w-[364.2px] ml-10 border-1 lg:w-[364.1px] rounded-4xl lg:ml-124 mt-10'>
+            <div className='flex lg:grid-cols-2 w-[364.2px] ml-6 border-1 lg:w-[364.1px] rounded-4xl lg:ml-124 mt-10'>
             <h1 className='border-white-1 px-6 py-2 text-2xl rounded-3xl hover:bg-[#0B2A2B] hover:text-white'>
                 Pay Monthly
             </h1>
@@ -41,7 +41,7 @@ function Card2() {
             {/* card pay end */}
             {/* card start */}
                 <div className='grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:flex gap-8 lg:ml-12 mt-20'>
-                    <div className='lg:w-[30%] w-101 ml-4 hover:border-1 bg-[#F0E9DD] group relative overflow-hidden rounded-xl h-160 shadow-md transition-all duration-500'>
+                    <div className='lg:w-[30%] w-94 ml-4 hover:border-1 bg-[#F0E9DD] group relative overflow-hidden rounded-xl h-160 shadow-md transition-all duration-500'>
                           <div className="absolute inset-0 opacity-0 group-hover:opacity-15 transition-opacity duration-500 bg-cover bg-center" style={{ backgroundImage: `url(${celender1})` }}></div>
                         <div className='ml-5 w-90 mt-8 text-[#0b2a2b]'>
                         <h1 className='text-5xl font-bold mb-5 tracking-[3px] text-[#0B2A2B]'>
@@ -64,13 +64,13 @@ function Card2() {
                             <li>10% Off First Class</li>
                             <li>24-Hour Cancellation Policy</li>
                         </ul>
-                        <button className='border-1 px-30 bg-[#0B2A2B] text-white ml-4 lg:ml-0 py-2 mt-10 rounded-2xl'>Get Basic Plan</button>
+                        <button className='border-1 px-10 lg:px-30 bg-[#0B2A2B] text-white ml-0 lg:ml-0 py-2 mt-10 rounded-2xl'>Get Basic Plan</button>
                         </div>
                     </div>
 
 
                     {/* second */}
-                    <div className=' w-101 ml-4 lg:ml-0 mt-5 lg:w-[30%] lg:mt-0 hover:border-1 bg-[#F0E9DD] group relative overflow-hidden rounded-xl h-160 shadow-md transition-all duration-500'>
+                    <div className=' w-94 ml-4 lg:ml-0 mt-5 lg:w-[30%] lg:mt-0 hover:border-1 bg-[#F0E9DD] group relative overflow-hidden rounded-xl h-160 shadow-md transition-all duration-500'>
                           <div className="absolute inset-0 opacity-0 group-hover:opacity-15 transition-opacity duration-500 bg-cover bg-center" style={{ backgroundImage: `url(${home4})` }}></div>
                         <div className='ml-5 w-90 mt-8 text-[#0b2a2b]'>
                         <h1 className='text-5xl font-bold mb-5 tracking-[3px] text-[#0B2A2B]'>
@@ -93,13 +93,13 @@ function Card2() {
                             <li>10% Off First Class</li>
                             <li>24-Hour Cancellation Policy</li>
                         </ul>
-                        <button className='border-1 px-30 bg-[#0B2A2B] text-white ml-4 lg:ml-0 py-2 mt-10 rounded-2xl'>Get Basic Plan</button>
+                        <button className='border-1 px-10 lg:px-30 bg-[#0B2A2B] text-white ml-0 lg:ml-0 py-2 mt-10 rounded-2xl'>Get Basic Plan</button>
                         </div>
                     </div>
                     {/* second */}
                     
                     {/* thrd */}
-                    <div className=' w-101 ml-4 mt-5 lg:mt-0 lg:ml-0 lg:w-[30%] hover:border-1 bg-[#F0E9DD] group relative overflow-hidden rounded-xl h-160 shadow-md transition-all duration-500'>
+                    <div className=' w-94 ml-4 mt-5 lg:mt-0 lg:ml-0 lg:w-[30%] hover:border-1 bg-[#F0E9DD] group relative overflow-hidden rounded-xl h-160 shadow-md transition-all duration-500'>
                           <div className="absolute inset-0 opacity-0 group-hover:opacity-15 transition-opacity duration-500 bg-cover bg-center" style={{ backgroundImage: `url(${banner})` }}></div>
                         <div className='ml-5 w-90 mt-8 text-[#0b2a2b]'>
                         <h1 className='text-5xl font-bold mb-5 tracking-[3px] text-[#0B2A2B]'>
@@ -122,7 +122,7 @@ function Card2() {
                             <li>10% Off First Class</li>
                             <li>24-Hour Cancellation Policy</li>
                         </ul>
-                        <button className='border-1 px-30 bg-[#0B2A2B] text-white py-2 ml-4 lg:ml-0 mt-10 rounded-2xl'>Get Basic Plan</button>
+                        <button className='border-1 lg:px-30 px-10 bg-[#0B2A2B] text-white py-2 ml-0 lg:ml-0 mt-10 rounded-2xl'>Get Basic Plan</button>
                         </div>
                     </div>
                     {/* thrd */}

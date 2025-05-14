@@ -31,7 +31,7 @@ function Testimonial2() {
                 </div>
                 {/* contant */}
                 <div className='lg:flex gap-8 mt-10'>
-                    <div className='relative group h-135 lg:w-[30%] lg:ml-8 w-101 ml-4 rounded-xl overflow-hidden bg-cover bg-center hover:border-1 hover:bg-white'
+                    <div className='relative group h-135 lg:w-[30%] lg:ml-8 w-95 ml-4 rounded-xl overflow-hidden bg-cover bg-center hover:border-1 hover:bg-white'
                         style={{ backgroundImage: `url(${testimonial1})` }}
                         onMouseEnter={() => setIsHovered1(true)}
                         onMouseLeave={() => setIsHovered1(false)}>
@@ -40,7 +40,7 @@ function Testimonial2() {
                             Novemer 11 2024
                         </h1>
 
-                        <div className={`border-white-3 z-50 w-90 h-43 tracking-[3px] bg-[white] rounded-xl ml-5 mt-70 transition-opacity duration-300 ${isHovered1 ? 'opacity-0' : 'opacity-100'}`}>
+                        <div className={`border-white-3 z-50 w-90 h-43 tracking-[3px] bg-[white] rounded-xl ml-2 mt-70 transition-opacity duration-300 ${isHovered1 ? 'opacity-0' : 'opacity-100'}`}>
                             <h1 className='text-2xl w-80 font-bold text-[#1B2E35] text-center ml-4 mt-6 mb- pt-5 mb-5'>
                                 Yoga For Better Sleep And Health
                             </h1>
@@ -56,7 +56,7 @@ function Testimonial2() {
                     </div>
 
                     {/* second */}
-                    <div className='relative group h-135 lg:w-[30%] lg:ml-8 w-101 ml-4 mt-5 lg:mt-0 rounded-xl overflow-hidden bg-cover bg-center hover:border-1 hover:bg-white'
+                    <div className='relative group h-135 lg:w-[30%] lg:ml-8 w-94 ml-4 mt-5 lg:mt-0 rounded-xl overflow-hidden bg-cover bg-center hover:border-1 hover:bg-white'
                         style={{ backgroundImage: `url(${testimonial2})` }}
                         onMouseEnter={() => setIsHovered2(true)}
                         onMouseLeave={() => setIsHovered2(false)}>
@@ -65,7 +65,7 @@ function Testimonial2() {
                             Novemer 11 2024
                         </h1>
 
-                        <div className={`border-white-3 z-50 w-90 h-43 tracking-[3px] bg-[white] rounded-xl ml-5 mt-70 transition-opacity duration-300 ${isHovered2 ? 'opacity-0' : 'opacity-100'}`}>
+                        <div className={`border-white-3 z-50 w-90 h-43 tracking-[3px] bg-[white] rounded-xl ml-2 mt-70 transition-opacity duration-300 ${isHovered2 ? 'opacity-0' : 'opacity-100'}`}>
                             <h1 className='text-2xl w-80 font-bold text-[#1B2E35] text-center ml-4 mt-6 pt-5 mb-5'>
                                 Yoga For Better Sleep And Health
                             </h1>
@@ -82,7 +82,7 @@ function Testimonial2() {
                     {/* second */}
 
                     {/* third */}
-                    <div className='relative group h-135 lg:w-[30%] lg:ml-8 w-101 ml-4 mt-5 lg:mt-0 rounded-xl overflow-hidden bg-cover bg-center hover:border-1 hover:bg-white'
+                    <div className='relative group h-135 lg:w-[30%] lg:ml-8 w-94 ml-4 mt-5 lg:mt-0 rounded-xl overflow-hidden bg-cover bg-center hover:border-1 hover:bg-white'
                         style={{ backgroundImage: `url(${testimonial3})` }}
                         onMouseEnter={() => setIsHovered3(true)}
                         onMouseLeave={() => setIsHovered3(false)}>
@@ -91,7 +91,7 @@ function Testimonial2() {
                             Novemer 11 2024
                         </h1>
 
-                        <div className={`border-white-3 z-50 w-90 h-43 tracking-[3px] bg-[white] rounded-xl ml-5 mt-70 transition-opacity duration-300 ${isHovered3 ? 'opacity-0' : 'opacity-100'}`}>
+                        <div className={`border-white-3 z-50 w-90 h-43 tracking-[3px] bg-[white] rounded-xl ml-2 mt-70 transition-opacity duration-300 ${isHovered3 ? 'opacity-0' : 'opacity-100'}`}>
                             <h1 className='text-2xl w-80 font-bold text-[#1B2E35] text-center ml-4 mt-6 pt-5 mb-5'>
                                 Yoga For Better Sleep And Health
                             </h1>
@@ -119,8 +119,8 @@ function Testimonial2() {
                 </div>
 
                 <div className='z-1'>
-                   <input type="text" placeholder='Enter Your Mail' className='border-1 border-[#000000a9] px-2 py-3 lg:w-110 rounded-2xl lg:ml-20 lg:mt-18 ml-5 mt-12 w-100' />
-                    <button className='border-white-1 bg-[#1C2F36] text-white lg:px-14 px-7 rounded-2xl lg:py-3 py-[12.3px] lg:ml-[-161px] w-40 absolute lg:mt-[73.8px] mt-[48.9px] ml-[-152px] hover:bg-[#536765]'>
+                   <input type="text" placeholder='Enter Your Mail' className='border-1 border-[#000000a9] px-2 py-3 lg:w-110 rounded-2xl lg:ml-20 lg:mt-18 ml-5 mt-12 w-95' />
+                    <button className='border-white-1 bg-[#1C2F36] text-white lg:px-14 px-7 rounded-2xl lg:py-3 py-[12.3px] lg:ml-[-161px] w-40 absolute lg:mt-[73.8px] mt-[48.9px] ml-[-161px] hover:bg-[#536765]'>
                         Submit
                     </button>
                     <h1 className='lg:mt-5 mt-10 ml-3 lg:text-sm font-bold w-100 text-2xl lg:ml-22 lg:w-100 border-[#00000050] '>
