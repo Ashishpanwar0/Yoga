@@ -25,10 +25,10 @@ function Cards1() {
     </div>
     
     {/* cards */}
-    <div className='grid grid-cols-2 md:grid md:grid-cols-2 lg:flex lg:flex-row gap-3 sm:gap-4 md:gap-8 lg:gap-10 w-full pt-6 md:pt-8 lg:pt-10 px-2 sm:px-4 md:px-6 lg:px-10 pb-8 md:pb-10 lg:pb-0'>
-        <div className='border-1 px-2 sm:px-3 py-2 sm:py-3 rounded-xl sm:rounded-2xl mx-auto md:mx-0 lg:ml-0 w-full bg-white shadow-md h-auto lg:h-116 overflow-hidden'>
+    <div className='grid grid-cols-2 md:grid md:grid-cols-2 lg:flex lg:flex-row gap-3 sm:gap-4 md:gap-8 lg:gap-10 w-full pt-6 md:pt-8 lg:pt-10 px-2 sm:px-4 md:px-6 lg:px-10 md:pb-10 lg:pb-0'>
+        <div className='border-1 px-2 sm:px-3 py-2 sm:py-3 rounded-xl sm:rounded-2xl ml-[-16px] mx-auto md:mx-0 lg:ml-4 w-[180px] lg:w-70 bg-white shadow-md h-auto lg:h-116 overflow-hidden'>
             <img src={card4} alt="" className='w-full lg:w-65 h-32 sm:h-40 md:h-52 lg:h-60 object-cover rounded-lg sm:rounded-xl hover:scale-105 hover:h-40 sm:hover:h-52 md:hover:h-72 lg:hover:h-90 transition-all duration-300'/>
-            <h2 className='mt-3 md:mt-4 lg:mt-5 w-50 lg:text-lg md:text-xl text-[#233C44] font-bold tracking-[1px]'>
+            <h2 className='mt-3 md:mt-4 lg:mt-5 w-[100%] lg:text-lg md:text-xl text-[#233C44] font-bold tracking-[1px]'>
                 Chair Yoga Workshop
             </h2>
             <h1 className='text-[#233C44] mt-1 md:mt-2 text-xl md:text-2xl font-bold tracking-[2px] lg:tracking-[3px]'>
@@ -45,9 +45,9 @@ function Cards1() {
             </div>
         </div>
 
-        <div className='border-1 px-2 sm:px-3 py-2 sm:py-3 rounded-xl sm:rounded-2xl mx-auto md:mx-0 w-full h-auto lg:h-116 bg-white shadow-md overflow-hidden'>
-            <img src={card2} alt="" className='w-full lg:w-65 h-32 sm:h-40 md:h-52 lg:h-60 object-cover rounded-lg sm:rounded-xl hover:scale-105 hover:h-40 sm:hover:h-52 md:hover:h-72 lg:hover:h-90 transition-all duration-300'/>
-            <h2 className='mt-3 md:mt-4 lg:mt-5  w-50 lg:text-lg md:text-xl text-[#233C44] font-bold tracking-[1px]'>
+        <div className='border-1 px-2 sm:px-3 py-2 sm:py-3 rounded-xl sm:rounded-2xl mx-auto md:mx-0 w-[180px] h-auto lg:w-70 lg:h-116 bg-white shadow-md overflow-hidden'>
+            <img src={card2} alt="" className='w-[180px] lg:w-65 h-32 sm:h-40 md:h-52 lg:h-60 object-cover rounded-lg sm:rounded-xl hover:scale-105 hover:h-40 sm:hover:h-52 md:hover:h-72 lg:hover:h-90 transition-all duration-300'/>
+            <h2 className='mt-3 md:mt-4 lg:mt-5  w-[100%] lg:text-lg md:text-xl text-[#233C44] font-bold tracking-[1px]'>
                 Chair Yoga Workshop
             </h2>
             <h1 className='text-[#233C44] mt-1 md:mt-2 text-xl md:text-2xl font-bold tracking-[2px] lg:tracking-[3px]'>
@@ -64,9 +64,9 @@ function Cards1() {
             </div>
         </div>
 
-        <div className='border-1 px-3 py-3 rounded-2xl mx-auto md:mx-0 w-full max-w-xs h-auto lg:h-116 bg-white shadow-md overflow-hidden'>
+        <div className='border-1 lg:w-70 px-3 py-3 rounded-2xl mx-auto md:mx-0 w-[180px] ml-[-16px] max-w-xs h-auto lg:h-116 bg-white shadow-md overflow-hidden'>
             <img src={card3} alt="" className='w-full lg:w-65 h-32 sm:h-40 md:h-52 lg:h-60 object-cover rounded-lg sm:rounded-xl hover:scale-105 hover:h-40 sm:hover:h-52 md:hover:h-72 lg:hover:h-90 transition-all duration-300'/>
-            <h2 className='mt-3 md:mt-4 lg:mt-5 w-50 lg:text-lg md:text-xl text-[#233C44] font-bold tracking-[1px]'>
+            <h2 className='mt-3 md:mt-4 lg:mt-5 w-[100%] lg:text-lg md:text-xl text-[#233C44] font-bold tracking-[1px]'>
                 Chair Yoga Workshop
             </h2>
             <h1 className='text-[#233C44] mt-1 md:mt-2 text-xl md:text-2xl font-bold tracking-[2px] lg:tracking-[3px]'>
@@ -83,9 +83,9 @@ function Cards1() {
             </div>
         </div>
 
-        <div className='border-1 px-3 py-3 rounded-2xl mx-auto md:mx-0 w-full max-w-xs h-auto lg:h-116 bg-white shadow-md overflow-hidden'>
+        <div className='border-1 px-3 lg:w-70 py-3 rounded-2xl mx-auto md:mx-0 w-[180px] max-w-xs h-auto lg:h-116 bg-white shadow-md overflow-hidden'>
             <img src={card4} alt="" className='w-full lg:w-65 h-32 sm:h-40 md:h-52 lg:h-60 object-cover rounded-lg sm:rounded-xl hover:scale-105 hover:h-40 sm:hover:h-52 md:hover:h-72 lg:hover:h-90 transition-all duration-300'/>
-            <h2 className='mt-3 md:mt-4 lg:mt-5 w-50 lg:text-lg md:text-xl text-[#233C44] font-bold tracking-[1px]'>
+            <h2 className='mt-3 md:mt-4 lg:mt-5 w-[100%] lg:text-lg md:text-xl text-[#233C44] font-bold tracking-[1px]'>
                 Chair Yoga Workshop
             </h2>
             <h1 className='text-[#233C44] mt-1 md:mt-2 text-xl md:text-2xl font-bold tracking-[2px] lg:tracking-[3px]'>

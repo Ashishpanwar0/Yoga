@@ -2,7 +2,7 @@ import React from 'react'
 
 function Video({video}) {
     return (
-        <section className='bg-[#FAF4EB] lg:h-128 h-[580px]'>
+        <section className='bg-[#FAF4EB] lg:h-128 h-[580px] pt-5'>
             <div className='relative overflow-hidden pb-[56.25%] h-auto rounded-xl mx-auto '>
                 <iframe width="100%" rounded="20px" height="490" src="https://www.youtube.com/embed/1AGiq77wZ9c?si=SkDkG-o7zI4XJEEX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>

@@ -10,7 +10,7 @@ function Shop() {
     <>
     <Header BgColor="bg-[#FBF5EC]"/>
     <Head2 title="Shop Now" subtitle="Home"/>
-    <div className='flex'>
+    <div className='lg:flex'>
     <Availability/>
     <ShopingCard/>
     </div>

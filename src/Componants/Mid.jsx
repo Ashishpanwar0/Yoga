@@ -10,7 +10,7 @@ function Mid() {
   
   return (
     <>
-      <section className='bg-[#ddceb7fa] h-[550px] lg:h-170'>
+      <section className='bg-[#ddceb7fa] h-[550px] lg:h-170 md:h-[1200px]'>
         {/* Second Start */}
         <div className='flex gap-0 pt-12 lg:flex-row'>
           <div className='lg:mt-35'>
@@ -44,7 +44,7 @@ function Mid() {
               <p className='lg:w-125 text-center text-1xl mt-5'>
                 Proin ornare justo sodales senectus vulputate aptent semper sollicitudin accumsan fringilla et imperdiet pellentesque morbi
               </p>
-              <button className='border-1 px-13 py-4 rounded-[30px] mt-10 bg-[#0B2A2B] text-white lg:ml-42 ml-25 hover:bg-[#536765] group-hover:scale-100'>
+              <button className='border-1 border-[#00000038] px-13 py-4 rounded-[30px] mt-10 bg-[#0B2A2B] text-white lg:ml-42 ml-25 hover:bg-[#536765] group-hover:scale-100'>
                 Explore More
               </button>
             </div>

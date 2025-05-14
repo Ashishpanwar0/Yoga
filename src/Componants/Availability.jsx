@@ -4,9 +4,9 @@ import React from 'react'
 function Availability() {
     return (
         <>
-            <section className='bg-[#F7F2EA]'>
-                <div className='border-1 w-85 ml-5 bg-[#F5EDE0] rounded-xl mt-25 border-[#0000003d]'>
-
+            <section className='bg-[#F7F2EA] h-200 lg:h-300'>
+                <div className='pt-10 lg:pt-0'>
+                    <div className='border-1 lg:w-85 w-[94%] ml-3 lg:ml-5 bg-[#F5EDE0] rounded-xl lg:mt-25 border-[#0000003d]'>
                     {/* contat */}
                     <div className='ml-5 mt-4 text-[#0B2A2B] font-serif'>
                         <h1 className='text-3xl tracking-[3px] text-[#0B2A2B]'>
@@ -60,10 +60,11 @@ function Availability() {
                             </div>
 
                         <h1 className='mt-5 text-xl tracking-[2px] font-serif'>
-                            Products:
+                            {/* Products: */}
                         </h1>
                     </div>
                     {/* end */}
+                </div>
                 </div>
             </section>
         </>

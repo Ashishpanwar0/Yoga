@@ -30,7 +30,7 @@ function Card2() {
             </div>
             {/* card pay */}
 
-            <div className='flex text-center lg:grid-cols-2 w-[76.3%]  ml-10 max-auto border-1 lg:w-[364.1px] rounded-4xl lg:ml-124 mt-10'>
+            <div className='flex text-center lg:grid-cols-2 w-[71.4%]  ml-14 max-auto border-1 lg:w-[364.1px] rounded-4xl lg:ml-124 mt-10'>
             <h1 className='border-white-1 px-6 py-2 lg:text-2xl rounded-3xl hover:bg-[#0B2A2B] hover:text-white'>
                 Pay Monthly
             </h1>
