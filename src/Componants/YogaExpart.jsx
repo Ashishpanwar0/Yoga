@@ -7,7 +7,7 @@ function YogaExpart() {
   return (
     <>
       <section className='bg-[#FBF5EC] lg:h-125 h-[10%] pt-15 w-full'>
-        <div className='lg:flex border-white-1 lg:grid-cols-3 bg-[#0B2A2B] py-12 lg:w-[90%] lg:gap-8 rounded-2xl lg:ml-16 lg:h-98 max-w-[]  ml-3 h-230'>
+        <div className='lg:flex border-white-1 lg:grid-cols-3 bg-[#0B2A2B] py-12 lg:w-[90%] lg:gap-8 rounded-2xl lg:ml-16 lg:h-98 max-w-[]  ml-0 h-230'>
           <div className='w-[35%] lg:ml-10 ml-8 mt-3'>
             <h1 className='lg:text-6xl text-5xl text-white font-bold lg:w-100 tracking-[1px] w-100'>
               Speak With A Yoga Expert
