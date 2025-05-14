@@ -12,7 +12,7 @@ function Testimonial() {
   return (
     <section className="relative bg-[#F4ECDF] py-20 px-4 lg:h-120 w-[100%]  overflow-hidden lg:w-full h-125">
       <div className='relative'>
-        <h1 className='flex border-1 w-55 ml-25 lg:w-70 justify-center gap-2 items-center rounded-2xl  py-2 leading-tight tracking-[2px] lg:ml-130'><BsStars />Community talks <BsStars /></h1>
+        <h1 className='flex border-1 w-55 ml-25 lg:w-60 justify-center gap-2 items-center rounded-2xl  py-2 leading-tight tracking-[2px] lg:ml-138'><BsStars />Community talks <BsStars /></h1>
         <h1 className='lg:text-5xl text-2xl lg:w-150 text-center tracking-[3px] items-center lg:ml-90 text-[#0B2A2B] font-bold mt-5'>What our clients say about us</h1>
         <p className='lg:w-180 text-center lg:ml-80 mt-5 tracking-[3px]'>Sociosqu gravida vehicula dis erat ante ornare interdum feugiat donec accumsan nullamdiam magna, auctor ut risus eget, scelerisque aliquam</p>
       </div>

@@ -12,7 +12,7 @@ function Calendar() {
         <>
             <section className='bg-[#FBF5EC] min-h-screen px-4 md:px-6 lg:px-0'>
                 <div className='pt-10 md:pt-16 lg:pt-20 flex flex-col items-center'>
-                    <h1 className='flex border-1 w-54  md:max-w-sm lg:w-70 justify-center gap-4 items-center rounded-2xl py-2 leading-tight tracking-[2px] mx-auto'><BsStars />Our calendar <BsStars /></h1>
+                    <h1 className='flex border-1 w-54  md:max-w-sm lg:w-55 justify-center gap-4 items-center rounded-2xl py-2 leading-tight tracking-[2px] mx-auto'><BsStars />Our calendar <BsStars /></h1>
                     <h1 className='text-3xl md:text-4xl lg:text-5xl w-full lg:w-170 tracking-[3px] text-[#0B2A2B] font-bold mt-5 text-center'>Upcoming workshops</h1>
                     <p className='w-full   lg:w-160 text-center mt-5 tracking-[1px] md:tracking-[2px] lg:tracking-[3px]'>Lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit amet Ipsum long established fact that a reader will be distracted by the readable.</p>
                 </div>

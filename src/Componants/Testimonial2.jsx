@@ -41,10 +41,10 @@ function Testimonial2() {
                         </h1>
 
                         <div className={`border-white-3 z-50 w-[90%] h-43 tracking-[3px] bg-[white] rounded-xl ml-[15px] mt-70 transition-opacity duration-300 ${isHovered1 ? 'opacity-0' : 'opacity-100'}`}>
-                            <h1 className='text-2xl w-80 font-bold text-[#1B2E35] text-center ml-4 mt-6 mb- pt-5 mb-5'>
+                            <h1 className='text-2xl lg:w-80 w-[96%] font-bold text-[#1B2E35] text-center ml-4 mt-6 mb- pt-5 mb-5'>
                                 Yoga For Better Sleep And Health
                             </h1>
-                            <p className='text-sm w-80 text-[#1B2E35] text-center ml-4'>
+                            <p className='text-sm lg:w-80 w-[95%] text-[#1B2E35] text-center lg:ml-7 ml-2'>
                                 Nullam Diam magna, author ut risus eget, scelerisque alquem
                             </p>
                         </div>
@@ -66,10 +66,10 @@ function Testimonial2() {
                         </h1>
 
                         <div className={`border-white-3 z-50 w-[90%] h-43 tracking-[3px] bg-[white] rounded-xl ml-[15px] mt-70 transition-opacity duration-300 ${isHovered2 ? 'opacity-0' : 'opacity-100'}`}>
-                            <h1 className='text-2xl w-80 font-bold text-[#1B2E35] text-center ml-4 mt-6 pt-5 mb-5'>
+                            <h1 className='text-2xl lg:w-80 w-[96%] font-bold text-[#1B2E35] text-center ml-2 mt-6 pt-5 mb-5'>
                                 Yoga For Better Sleep And Health
                             </h1>
-                            <p className='text-sm w-80 text-[#1B2E35] text-center ml-4'>
+                            <p className='text-sm lg::w-80 ml-2 w-[95%] text-[#1B2E35] text-center lg:ml-7'>
                                 Nullam Diam magna, author ut risus eget, scelerisque alquem
                             </p>
                         </div>
@@ -92,10 +92,10 @@ function Testimonial2() {
                         </h1>
 
                         <div className={`border-white-3 z-50 w-[92%] h-43 tracking-[3px] bg-[white] rounded-xl ml-[15px] mt-70 transition-opacity duration-300 ${isHovered3 ? 'opacity-0' : 'opacity-100'}`}>
-                            <h1 className='text-2xl w-80 font-bold text-[#1B2E35] text-center ml-4 mt-6 pt-5 mb-5'>
+                            <h1 className='text-2xl lg:w-80 w-[96%] font-bold text-[#1B2E35] text-center ml-2 mt-6 pt-5 mb-5'>
                                 Yoga For Better Sleep And Health
                             </h1>
-                            <p className='text-sm w-80 text-[#1B2E35] text-center ml-4'>
+                            <p className='text-sm lg:w-80 w-[95%] text-[#1B2E35] text-center lg:ml-7 ml-2'>
                                 Nullam Diam magna, author ut risus eget, scelerisque alquem
                             </p>
                         </div>

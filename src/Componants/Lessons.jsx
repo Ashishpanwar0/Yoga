@@ -14,7 +14,7 @@ function Lessons() {
     <>
       <section className='bg-[#F9F3EA] lg:h-270 h-[1860px]'>
          <div className='pt-10 sm:pt-16'>
-              <h1 className='flex border-1 w-60 justify-center gap-5 items-center rounded-2xl py-2 lg:w-80 tracking-[2px] mx-auto text-base sm:text-lg'>
+              <h1 className='flex border-1 w-60 justify-center gap-5 items-center rounded-2xl py-2 lg:w-65 tracking-[2px] mx-auto text-base sm:text-lg'>
                 <BsStars />Tools and Props <BsStars />
               </h1>
               <h1 className='text-3xl sm:text-4xl lg:text-5xl w-full text-center tracking-[3px] text-[#0B2A2B] font-bold mt-5'>
