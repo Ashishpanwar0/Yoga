@@ -13,7 +13,7 @@ import pay7 from '../assets/gayu-pay-visa.png'
 
 function Footer() {
     return (
-        <section className='bg-[#0B2A2B] lg:h-152 h-182 w-full'>
+        <section className='bg-[#0B2A2B] lg:h-152 h-182 w-full '>
             <div className='lg:flex gap-x-25 lg:ml-5 pt-15'>
                 <img src={light} alt="" className='lg:w-130 w-[90%] lg:ml-8 ml-3' />
                 <h1 className='lg:text-5xl text-2xl ml-5 font-bold lg:w-160 lg:ml-2 text-[white] tracking-[4px] mt-5 lg:mt-5 font-serif'>

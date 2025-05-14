@@ -11,13 +11,13 @@ function Head2({title, subtitle}) {
       >
         <div className="absolute inset-0 bg-[#EADBC5] opacity-80 z-0"></div>
         
-        <h1 className="text-2xl sm:text-4xl md:text-5xl z-10 absolute ml-45 sm:ml-20 md:ml-40 lg:ml-140 tracking-[2px] sm:tracking-[3px] md:tracking-[4px] font-bold text-[#0B2A2B] mt-22 sm:mt-16 lg:mt-20">
+        <h1 className="text-2xl sm:text-4xl md:text-5xl z-10 absolute ml-35 sm:ml-20 md:ml-40 lg:ml-140 tracking-[2px] sm:tracking-[3px] md:tracking-[4px] font-bold text-[#0B2A2B] mt-22 sm:mt-16 lg:mt-20 text-center">
           {title}
         </h1>
 
         <Link
           to="/"
-          className="absolute ml-45 sm:ml-20 md:ml-40 lg:ml-142 mt-30 sm:mt-28 lg:mt-32 text-xl sm:text-xl md:text-2xl text-[#0B2A2B] hover:underline"
+          className="absolute ml-35 sm:ml-20 md:ml-40 lg:ml-142 mt-30 sm:mt-28 lg:mt-32 text-xl sm:text-xl md:text-2xl text-[#0B2A2B] text-center hover:underline"
         >
           {subtitle}
         </Link>
